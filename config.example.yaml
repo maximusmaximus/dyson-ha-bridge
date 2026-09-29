@@ -1,0 +1,14 @@
+bridge:
+  entity_id: light.dyson_desk_lamp
+  http_port: 8089
+  motion_entity_id: binary_sensor.dyson_desk_lamp_motion
+
+device:
+  account_uuid: "00000000-0000-0000-0000-000000000000"
+  ltk: "B259E8421C167AB423B618E73154441C"
+  mac: "C4:5F:0E:CE:34:0E"
+  serial: "E5M-US-NFA0140A"
+
+home_assistant:
+  token: "YOUR_HA_LONG_LIVED_ACCESS_TOKEN"
+  url: "http://192.168.50.106:8123"
